@@ -1,4 +1,4 @@
 FROM nginx:alpine
-COPY /frontend/index.html /usr/share/nginx/html/index.html
-Copy ngnix.conf /usr/nginx.conf
+COPY index.html /usr/share/nginx/html/index.html
+COPY ngnix.conf /etc/nginx/nginx.conf
 EXPOSE 80
